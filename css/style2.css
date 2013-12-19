@@ -1,0 +1,113 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+@import url(http://fonts.googleapis.com/css?family=Joti+One);
+* {
+  font-family: Inconsolata;
+}
+
+#wrap{
+  z-index: 100;
+}
+
+body {
+        background: #000;
+        color: #fff;
+        font-size: 100%;
+      }
+
+@media only screen and (max-width: 1200px) {
+  #nav ul h2{ font-size:150%;}
+}
+
+@media only screen and (max-width: 800px) {
+  #nav { font-size:80%;}
+}
+@media only screen and (max-width: 400px) {
+  body { font-size:60%;}
+}
+
+.center { float: none; margin-left: auto; margin-right: auto; }
+
+#container{
+  background: #295071;
+  border-bottom: #4dbfd9 solid 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.central-text{
+  font-family: "Joti One";
+  font-size: 6em;
+  font-weight: bold;
+  color: #FFD141;
+  text-shadow: 0 0 10px #FFD141;
+}
+
+.central-text-div{
+  text-align: center;
+}
+
+  #next {
+    margin-top: 40px;
+  }
+
+  #home-links-div {
+    padding-top: 30px;
+  }
+
+  #description{
+    font-family: "Joti One";
+    padding: 20px 20px;
+  }
+
+  .btn{
+    margin: 20px;
+  }
+
+
+  #myCarousel{
+    margin-top: 50px;
+  }
+
+  .profile{
+    margin-bottom: 10px;
+  }
+
+  .people {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  #projects{
+    padding-top: 30px;
+    border-bottom: #4dbfd9 solid 10px;
+  }
+
+  #events{
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  #notification{
+    border-bottom: #4dbfd9 solid 10px;
+    padding-bottom: 30px;
+  }
+
+  #notification h2{
+    text-align: center;
+  }
+
+  #the-team{
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  #current-members{
+    padding-bottom: 30px;
+/*    border-bottom: #4dbfd9 solid 10px;*/
+  }
+
+  #map {
+    height: 300px;
+    color: #000;
+    border-top: 4px solid #F9BE06;
+  }

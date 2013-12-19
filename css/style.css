@@ -1,0 +1,109 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+@import url(http://fonts.googleapis.com/css?family=Joti+One);
+* {
+  font-family: Inconsolata;
+}
+
+body {
+        background: url("../img/dark.png");
+        color: #fff;
+        font-size: 100%;
+      }
+
+p {
+  line-height: 1.2em;
+}
+
+.center { float: none; margin-left: auto; margin-right: auto; }
+
+.central-text-div{
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 200px;
+}
+
+.central-text{
+  font-family: "Joti One";
+  font-size: 6em;
+  font-weight: bold;
+  color: #3773A5;
+  text-shadow: 0 0 30px #3773A5;
+}
+
+  @media only screen and (max-height: 600px) {
+    .central-text-div{
+      margin-top: 100px;
+      margin-bottom: 150px;
+    }  
+  }
+  @media only screen and (max-height: 400px) {
+    .central-text-div{
+      margin-top: 70px;
+      margin-bottom: 100px;
+    }  
+  }
+
+  #next {
+    margin-top: 40px;
+  }
+
+  #next-class h4{
+    background-color: #3773A5;
+  }
+
+  #home-links-div {
+    padding-top: 30px;
+    line-height: 40px;
+  }
+
+  #description{
+/*    font-family: "Joti One";*/
+    padding: 10px 10px;
+  }
+
+  .btn{
+    margin: 20px;
+  }
+
+  .home-link {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #FFD141;
+    padding: 10; 
+    text-decoration: underline;
+  }
+
+  .home-link:hover{
+    color: #000;
+    background-color: #FFD141;
+    text-decoration: none;
+  }
+  
+  @media only screen and (max-width: 400px) {
+    body { font-size:60%;}
+    .home-link{
+      padding: 0 10px;
+    }
+  }
+
+  #myCarousel{
+    margin-top: 50px;
+  }
+
+  .profile{
+    margin-bottom: 10px;
+    height:140px;
+    width:140px;
+  }
+
+  .pic-div{
+    margin-bottom: 30px;
+  }
+
+  .people {
+    text-align: center;
+  }
+
+  .navbar .navbar-inner{
+    background: url("../img/dark.png");
+  }
