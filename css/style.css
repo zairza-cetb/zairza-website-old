@@ -8,11 +8,102 @@ body {
         background: url("../img/dark.png");
         color: #fff;
         font-size: 100%;
+		width:60%;
       }
 
 p {
   line-height: 1.2em;
 }
+
+	.column1,
+	.column2
+	{
+		float: left;
+		margin-right: 24px;
+	}
+	
+	.column3
+	{
+		float: left;
+		margin-right: 24px;
+	}
+	.column1,
+	.column2,
+	.column3
+	{
+		width:20%;
+		height:300px;
+	}
+	.column1 img
+	{
+		width:100%;
+		height:150px;
+	}
+	.major
+	{
+		width:60%;
+		overflow: hidden;
+		margin-bottom: 4em;
+		text-align: center;
+	}
+	
+	.major h2
+	{
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+		font-size: 2em;
+		font-weight: 700;
+		color: #3f3f3f;
+	}
+
+	.major .byline
+	{
+		display: block;
+		padding-top: 0.2em;
+		font-weight: 300;
+		font-size: 2em;
+	}
+
+		
+	#portfolio
+	{
+		overflow: hidden;
+		text-align: center;
+	}
+	
+	#portfolio img
+	{
+		margin: 0;
+		padding: 0;
+	}
+	
+	#portfolio .box
+	{
+		color:#FFF;
+		
+	}
+     #content
+	{
+		float: left;
+		width: 588px;
+	}
+	
+	#content .title
+	{
+		padding-bottom: 2em;
+		text-align: left;
+	}
+	
+	#content h2
+	{
+		font-size: 2em;
+	}
+	
+	#content .byline
+	{
+		padding-top: 0;
+		font-size: 1.5em;
+	}
 
 .center { float: none; margin-left: auto; margin-right: auto; }
 
@@ -30,6 +121,7 @@ p {
   text-shadow: 0 0 30px #3773A5;
 }
 
+	
   @media only screen and (max-height: 600px) {
     .central-text-div{
       margin-top: 100px;
