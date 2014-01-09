@@ -1,0 +1,77 @@
+<html>
+        <head>
+                <title>Discussion</title>
+
+                <!-- Le Style -->
+                <link rel="stylesheet" href="../css/bootstrap.min.css">
+                <link rel="stylesheet" href="../css/bootstrap-responsive.min.css">
+                <link rel="stylesheet" href="../css/style.css">        
+                <style>
+                        body{
+                                color: #454545;
+                                font-size: 1.3em;
+                                background: url(../img/bgnoise.gif);
+                        }
+                        .navbar-inner{
+                                border-radius: 0;
+                        }
+                </style>
+        </head>
+        <body>
+                <div class="navbar navbar-inverse">
+	      <div class="navbar-inner">
+	        <div class="container">
+	          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	              <span class="icon-bar"></span>
+	              <span class="icon-bar"></span>
+	              <span class="icon-bar"></span>
+	          </button>
+	          <a class="brand" href="../../"><h2><span style="color:#0297E2;">ZAIRZA</span></h2></a>
+	          <div class="nav-collapse collapse pull-right">
+	            <ul class="nav">
+	              <li class="">
+	                <a href="../about"><h3>About</h3></a>
+	              </li>
+	              <li class="">
+	                <a href="../software"><h3>Software</h3></a>
+	              </li>
+	              <li class="">
+	                <a href="../robotics"><h3>Robotics</h3></a>
+	              </li>
+	              <li class="">
+	                <a href="../sae"><h3>SAE</h3></a>
+	              </li>
+	              <li class="">
+	                <a href=""><h3>Members</h3></a>
+	              </li>
+			<li class="active">
+                  	<a href=""><h3>Discussion</h3></a>
+                  	</li>
+	            </ul>
+	          </div>
+	        </div>
+	      </div>
+	    </div><!--End navbar-->
+         <div class="row">
+                 <div class="span8 center">
+                         <h2>Discussions</h2>
+                         <p>Need help with your project? Have any doubts? Have a saucy idea for your next project? Let the group know. Join our Google discussion group below.</p>
+                         <iframe id="forum_embed"
+                          src="javascript:void(0)"
+                          scrolling="no"
+                          frameborder="0"
+                          width="900"
+                          height="700">
+                         </iframe>
+                 </div>
+         </div>
+         <script src="http://code.jquery.com/jquery.js"></script>
+                <script src="../../js/bootstrap.min.js"></script>
+                <script type="text/javascript">
+                 document.getElementById("forum_embed").src =
+                 "https://groups.google.com/forum/embed/?place=forum/zairza" +
+                 "&showsearch=true&showpopout=true&parenturl=" +
+                 encodeURIComponent(window.location.href);
+                </script>
+        </body>
+</html>
