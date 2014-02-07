@@ -1,0 +1,206 @@
+.menu_container {
+ 	display: table-cell;
+ 	font-size: 12px;
+ 	font-weight: bolder;
+ 	position: relative;
+ 	text-shadow: 1px 1px 1px #333333;
+ 	vertical-align: middle;
+
+ }
+ .menu_container {
+ 	padding: 100px;
+ 	position:relative;
+    width:540px;
+    height: relative; /*make it relative if you want to make the header responsive */
+    top: 0px;
+    float:left;
+ }
+ .menu_container .menu_text {
+ 	display: table-cell;
+ 	font-size: 20px;
+ 	font-weight: bolder;
+ 	position: relative;
+ 	text-shadow: 1px 1px 1px #333333;
+ 	vertical-align: middle;
+ }
+ .menu_button {
+	
+    position:relative;
+    width: 260px;
+    height: 200px;
+    float:left;
+    margin: 0 1px 1px 0;
+    text-decoration:none;
+    color: #fff;
+    font-family: "Inconsolata";
+    text-align:center;
+	display:table;
+	background: rgb(122,152,171); /* this is the FALLBACK for old versions of IE: 6,7,8 */
+	background: rgba(122,152,171,0.75);
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; /* this is needed for transparency in old versions of IE: 6,7,8 */
+	filter: alpha(opacity=75);	}
+
+.menu_hover a:hover {
+	background: rgba(0,0,0,0);
+}
+
+.menu_button2 {
+	
+    position:relative;
+    width: 260px;
+    height: 200px;
+    float:left;
+    margin: 0 1px 1px 0;
+    text-decoration:none;
+    color: #000;
+    font-family: "Inconsolata";
+    text-align:center;
+	display:table;
+	background: rgb(176,220,247); /* this is the FALLBACK for old versions of IE: 6,7,8 */
+	background: rgba(176,220,247,0.75);
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; /* this is needed for transparency in old versions of IE: 6,7,8 */
+	filter: alpha(opacity=75);	}
+
+.menu_button3 {
+    position:relative;
+    width: 260px;
+    height: 200px;
+    float:left;
+    margin: 0 1px 1px 0;
+    text-decoration:none;
+    color: #000;
+    font-family: "Inconsolata";
+    text-align:center;
+	display:table;
+	background: rgb(176,220,247); /* this is the FALLBACK for old versions of IE: 6,7,8 */
+	background: rgba(176,220,247,0.75);
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; /* this is needed for transparency in old versions of IE: 6,7,8 */
+	filter: alpha(opacity=75);	}
+
+.menu_button4 {
+    position:relative;
+    width: 260px;
+    height: 200px;
+    float:left;
+    margin: 0 1px 1px 0;
+    text-decoration:none;
+    color: #000;
+    font-family: "Inconsolata";
+    text-align:center;
+	display:table;
+	background: rgb(247,215,176); /* this is the FALLBACK for old versions of IE: 6,7,8 */
+	background: rgba(247,215,176,0.75);
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; /* this is needed for transparency in old versions of IE: 6,7,8 */
+	filter: alpha(opacity=75);	}
+
+.menu_button5 {
+    position:relative;
+    width: 240px;
+    height: 77px;
+    float:left;
+    margin: 0 1px 1px 0;
+    text-decoration:none;
+    color: #fff;
+    font-family:"Inconsolata";
+    text-align:center;
+	display:table;
+	background: rgb(247,215,176); /* this is the FALLBACK for old versions of IE: 6,7,8 */
+	background: rgba(247,215,176,0.75);
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; /* this is needed for transparency in old versions of IE: 6,7,8 */
+	filter: alpha(opacity=75);	}
+
+.menu_button6 {
+    position:relative;
+    width: 240px;
+    height: 77px;
+    float:left;
+    margin: 0 1px 1px 0;
+    text-decoration:none;
+    color: #fff;
+    font-family: "Inconsolata";
+    text-align:center;
+	display:table;
+	background: rgb(236,237,231); /* this is the FALLBACK for old versions of IE: 6,7,8 */
+	background: rgba(236,237,231,0.75);
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=72)"; /* this is needed for transparency in old versions of IE: 6,7,8 */
+	filter: alpha(opacity=75);	
+	
+}
+
+
+.menu_button7 {
+    position:relative;
+    width: 120px;
+    height: 77px;
+    float:left;
+    margin: 0 1px 1px 0;
+    text-decoration:none;
+    color: #fff;
+    font-family: "Inconsolata";
+    text-align:center;
+	display:table;
+	background: rgb(236,237,231); /* this is the FALLBACK for old versions of IE: 6,7,8 */
+	background: rgba(236,237,231,0.75);
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; /* this is needed for transparency in old versions of IE: 6,7,8 */
+	filter: alpha(opacity=75);	
+
+}
+
+.menu_button8 {
+    position:relative;
+    width: 120px;
+    height: 77px;
+    float:left;
+    margin: 0 1px 1px 0;
+    text-decoration:none;
+    color: #fff;
+    font-family: "Inconsolata";
+    text-align:center;
+	display:table;
+	background: rgb(176,220,247); /* this is the FALLBACK for old versions of IE: 6,7,8 */
+	background: rgba(176,220,247,0.75);
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; /* this is needed for transparency in old versions of IE: 6,7,8 */
+	filter: alpha(opacity=75);	}
+
+.menu_button9 {
+    position:relative;
+    width: 120px;
+    height: 78px;
+    float:left;
+    margin: 0 1px 1px 0;
+    text-decoration:none;
+    color: #fff;
+    font-family: "Inconsolata";
+    text-align:center;
+	display:table;
+	background: rgb(176,220,247); /* this is the FALLBACK for old versions of IE: 6,7,8 */
+	background: rgba(176,220,247,0.75);
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; /* this is needed for transparency in old versions of IE: 6,7,8 */
+	filter: alpha(opacity=75);	}
+
+.menu_button10 {
+    position:relative;
+    width: 120px;
+    height: 78px;
+    float:left;
+    margin: 0 1px 1px 0;
+    text-decoration:none;
+    color: #fff;
+    font-family: "Inconsolata";
+    text-align:center;
+	display:table;
+	background: rgb(122,152,171); /* this is the FALLBACK for old versions of IE: 6,7,8 */
+	background: rgba(122,152,171,0.75);
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; /* this is needed for transparency in old versions of IE: 6,7,8 */
+	filter: alpha(opacity=75);
+}
